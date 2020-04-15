@@ -9,7 +9,7 @@ def my_collect(collection)
   collect
 end
 
-my_collect(collection) do |name|
+my_collect(array) do |name|
   name.split(" ").first
 end
 
